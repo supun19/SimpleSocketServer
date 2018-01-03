@@ -1,0 +1,29 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "simple socket server",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supun19/SimpleSocketServer.git"
+  },
+  "keywords": [
+    "socket",
+    "server"
+  ],
+  "author": "supun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supun19/SimpleSocketServer/issues"
+  },
+  "homepage": "https://github.com/supun19/SimpleSocketServer#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
